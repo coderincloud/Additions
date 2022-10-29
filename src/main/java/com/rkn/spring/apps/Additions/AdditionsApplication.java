@@ -19,7 +19,7 @@ public class AdditionsApplication {
 		//example url will look like http://localhost:8080/add?id1=1&id2=2
 		
 		int sum= Integer.parseInt(id1)+Integer.parseInt(id2);
-		return "The sum is: "+sum;
+		return "The sum is : "+sum;
 	}
 
 	public static void main(String[] args) {
